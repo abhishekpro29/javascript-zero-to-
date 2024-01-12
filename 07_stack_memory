@@ -1,0 +1,23 @@
+ //stack premitive data type copy value
+ // heap non premitive data type origanl
+
+ let First_Name="abhi"
+ let another_Name=First_Name
+ another_Name="abhishek"
+ 
+ console.log(another_Name);
+ 
+ console.log(First_Name);
+ 
+ let First_name={
+    name:"abhi",
+    user:"ab_hi",
+    pass:123
+ }
+
+
+let swicth_Name=First_name
+swicth_Name.name="abhishek"
+swicth_Name.pass=212
+console.log(First_name);
+console.log(swicth_Name);
