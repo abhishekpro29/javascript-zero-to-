@@ -1,0 +1,37 @@
+let Value=19
+let Neg_value= -Value
+console.log(Neg_value);
+
+console.log(2+2);// Arathmatic oparation
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2%2);
+console.log(4**2);
+
+let str_1="Hello"
+let str_2="javascript"
+
+
+let str_3=str_1+str_2
+console.log(str_3);
+
+
+console.log(("1")+2);
+console.log((1)+("2")+2);
+console.log(1+2+("2") );
+
+console.log(1+("2"));
+
+console.log((3+4)*2/1);
+
+console.log(+true);//true+ not valid
+console.log(+"");
+
+//let num1,num2,num3//assignment operation
+//let Same_value=4//assignment operation
+//let num1=num2=num3=Same_value//assignment operation
+
+let gameCounter=100
+++gameCounter;
+console.log(gameCounter);
